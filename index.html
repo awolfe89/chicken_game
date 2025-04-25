@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Farm Chicken Platformer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="game"></div>
+        <div id="game-info">
+            Use arrow keys to move, SPACE to shoot eggs (when powered up)
+        </div>
+    </div>
+    
+    <!-- Phaser -->
+    <script src="node_modules/phaser/dist/phaser.min.js"></script>
+    
+    <!-- Game code -->
+    <script src="js/utils/ColorUtils.js"></script>
+    <script src="js/data/gameData.js"></script>
+    
+    <!-- Game objects -->
+    <script src="js/objects/Player.js"></script>
+    <script src="js/objects/Enemy.js"></script>
+    <script src="js/objects/Pig.js"></script>
+    <script src="js/objects/Cow.js"></script>
+    <script src="js/objects/Sheep.js"></script>
+    <script src="js/objects/Goat.js"></script>
+    <script src="js/objects/Powerup.js"></script>
+    <script src="js/objects/Collectible.js"></script>
+    
+    <!-- Scenes -->
+    <script src="js/scenes/BootScene.js"></script>
+    <script src="js/scenes/LevelSelectScene.js"></script>
+    <script src="js/scenes/BaseLevelScene.js"></script>
+    <script src="js/scenes/Level1Scene.js"></script>
+    <script src="js/scenes/Level2Scene.js"></script>
+    <script src="js/scenes/Level3Scene.js"></script>
+    <script src="js/scenes/GameOverScene.js"></script>
+    <script src="js/scenes/VictoryScene.js"></script>
+    
+    <!-- Main game entry point -->
+    <script src="js/main.js"></script>
+</body>
+</html>
